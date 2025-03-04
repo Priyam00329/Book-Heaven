@@ -1,0 +1,45 @@
+<main>
+    <head>
+        <!-- Other meta tags -->
+        <link rel="stylesheet" href="styles.css"> <!-- Case-sensitive path -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+      </head>
+<!-- Header -->
+<header>
+  <nav aria-label="Main navigation">
+    <div class="logo">
+      <a href="index.html">BookHaven</a>
+    </div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="catalog.html">Catalog</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="search-bar">
+      <input type="text" placeholder="Search books..." aria-label="Search books">
+      <button aria-label="Search"><i class="fas fa-search"></i></button>
+    </div>
+    <button class="menu-toggle" aria-label="Mobile menu">☰</button>
+  </nav>
+</header>
+
+    <!-- Filter Sidebar -->
+    <aside class="filters" aria-label="Filter options">
+        <h2>Filters</h2>
+        <div class="filter-group">
+            <label><input type="checkbox" name="genre" value="fiction"> Fiction</label>
+            <label><input type="checkbox" name="genre" value="nonfiction"> Non-Fiction</label>
+        </div>
+    </aside>
+
+    <!-- Book Grid -->
+    <section class="book-grid" aria-label="Book listings">
+        <div class="book-card">
+            <img src="book1.jpg" alt="Book Title: The Great Adventure">
+            <h3>The Great Adventure</h3>
+            <p>$14.99</p>
+            <button class="cta-button">Add to Cart</button>
+        </div>
+        <!-- Repeat more book cards -->
+    </section>
+</main>
